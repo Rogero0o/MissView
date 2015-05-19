@@ -4,7 +4,7 @@ Thanks for Roman Nurik..<br>
 
 I like the animation in that project...so i studied his codes and make this..<br>
 
-![](http://ww3.sinaimg.cn/mw690/a695acdegw1es9pdp7jwug20cc0m5qvi.gif)
+![](https://github.com/Rogero0o/MissView/raw/master/missview.gif)
 
 ..as you see right now,wish you like it.
 
