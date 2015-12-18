@@ -94,7 +94,7 @@ public class BlurRenderer implements GLSurfaceView.Renderer {
         mContext = context;
         mCallbacks = callbacks;
 
-        mBlurKeyframes = getNumberOfKeyframes();//低内存返回1，其他返回5
+        mBlurKeyframes = getNumberOfKeyframes();
         mBlurAnimator = TickingFloatAnimator.create().from(mBlurKeyframes);
 
         mCurrentGLPictureSet = new GLPictureSet(0);

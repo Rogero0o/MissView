@@ -326,7 +326,7 @@ public class GLTextureView extends TextureView implements TextureView.SurfaceTex
      *     }
      * </pre>
      * <p>Note: Activities which require OpenGL ES 2.0 should indicate this by
-     * setting @lt;uses-feature android:glEsVersion="0x00020000" /> in the activity's
+     * setting @lt;uses-feature android:glEsVersion="0x00020000" in the activity's
      * AndroidManifest.xml file.
      * <p>If this method is called, it must be called before {@link #setRenderer(Renderer)}
      * is called.
@@ -529,7 +529,7 @@ public class GLTextureView extends TextureView implements TextureView.SurfaceTex
      * An interface for customizing the eglCreateContext and eglDestroyContext calls.
      * <p>
      * This interface must be implemented by clients wishing to call
-     * {@link android.opengl.GLSurfaceView#setEGLContextFactory(EGLContextFactory)}
+     *
      */
     public interface EGLContextFactory {
         EGLContext createContext(EGL10 egl, EGLDisplay display, EGLConfig eglConfig);
@@ -563,7 +563,7 @@ public class GLTextureView extends TextureView implements TextureView.SurfaceTex
      * An interface for customizing the eglCreateWindowSurface and eglDestroySurface calls.
      * <p>
      * This interface must be implemented by clients wishing to call
-     * {@link android.opengl.GLSurfaceView#setEGLWindowSurfaceFactory(EGLWindowSurfaceFactory)}
+     *
      */
     public interface EGLWindowSurfaceFactory {
         /**
@@ -604,7 +604,7 @@ public class GLTextureView extends TextureView implements TextureView.SurfaceTex
      * potential configurations.
      * <p>
      * This interface must be implemented by clients wishing to call
-     * {@link android.opengl.GLSurfaceView#setEGLConfigChooser(EGLConfigChooser)}
+     *
      */
     public interface EGLConfigChooser {
         /**

@@ -17,8 +17,6 @@ public class UriUtil {
      * 根据Uri获取图片绝对路径，解决Android4.4以上版本Uri转换
      * @param context
      * @param imageUri
-     * @author yaoxing
-     * @date 2014-10-12
      */
     @TargetApi(19)
     public static String getImageAbsolutePath(Context context, Uri imageUri) {
