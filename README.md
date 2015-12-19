@@ -14,7 +14,7 @@ Import this project into android studio..it's build with it.
 
 ###  Usage
 
-#### Maven Central
+#### Jcenter
 
 gradle
 ```
