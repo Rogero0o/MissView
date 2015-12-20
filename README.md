@@ -18,7 +18,7 @@ Import this project into android studio..it's build with it.
 
 gradle
 ```
-compile project(':library')
+compile 'com.roger.missview.library:library:1.0.0'
 ```
 
 ##### Config in xml
