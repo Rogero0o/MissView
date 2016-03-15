@@ -10,7 +10,7 @@ I like the animation in that project...so i studied his codes and make this..<br
 
 ### Step
 
-Import this project into android studio..it's build with it.
+Import this project into android studio..it's built with it.
 
 ###  Usage
 
