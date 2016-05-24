@@ -1,6 +1,8 @@
 package com.roger.missview;
 
 import android.app.Activity;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
 
@@ -24,7 +26,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         initImage();//将图片从assets考到SD卡
         mMissview = (MissView) findViewById(R.id.missview);
-        mMissview.initPicture(path);
+        Bitmap bit = BitmapFactory.decodeResource(this.getResources(),R.drawable.night);
+        mMissview.initPicture(bit);
     }
 
     private void initImage() {
